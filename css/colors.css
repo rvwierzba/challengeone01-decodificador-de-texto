@@ -1,0 +1,27 @@
+:root{
+
+  /* Dark Blue colors */
+  --DarkBlue100: #609ED4;
+  --DarkBlue200: #356EA9;
+  --DarkBlue300: #0A3871;
+  --DarkBlue400: #072B61;
+  --DarkBlue500: #052051;
+
+  /* Light Blue colors */
+  --LightBlue100: #F3F5FC;
+  --LightBlue200: #EFF1FA;
+  --LightBlue300: #E9ECF8;
+  --LightBlue400: #AAB2D5;
+  --LightBlue500: #757FB2;
+
+  /* Gray colors */
+  --Gray100: #CED4DA;
+  --Gray200: #ADB5BD;
+  --Gray300: #868E96;
+  --Gray400: #495057;
+  --Gray500: #343A40;
+
+  /* Other colors */
+  --White: #FFFFFF;
+
+}

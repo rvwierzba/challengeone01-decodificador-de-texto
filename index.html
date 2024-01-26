@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Criptografia - Challenge</title>
+</head>
+<body>
+  <header>
+    <img class="logo" src="./assets/img/Logo.svg" alt="logo"/>
+  </header>
+  <main>
+     <textarea id="input-txt" name="input-txt"
+       cols="35" rows="14" placeholder="Digite seu texto">
+      </textarea>
+      <div class="btns">
+        <button type="button" id="btn-encrypt"
+         class="btn-db300-preenchido btns-main" type="text">
+           <p>Criptografar</p>
+        </button>
+        <button id="btn-descrypt" 
+        class="btn-db300-vazio btns-main">
+          <p>Descriptografar</p>
+      </button>
+    </div>
+    <div class="container">
+       <div class="no-txt">
+          <img src="./assets/img/img-no-txt.png" id="img-girl-search" alt="Garota com uma lupa exemplificando que nenhum texto foi encontrado.">
+          <h2 class="h2-no-txt"><strong>Nenhuma mensagem <br> encontrada</strong></h2>
+          <p class="p-no-txt">Digite um texto que você desja <br> criptografar ou descriptografar.</p>
+        </div>
+        <div class="texted">
+          <textarea id="output-txt" name="output-txt"
+          cols="26" rows="11" placeholder="Digite seu texto" readonly>
+         </textarea>
+         <button class="btn-db300-vazio btn-texted-2copy" type="button"><p>Copiar</p></button>
+        </div>
+     </di>
+  </main>
+  </body>
+  <script src="./script.js"></script>
+</html>

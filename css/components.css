@@ -1,0 +1,64 @@
+/* Import colors */
+@import "./colors.css";
+
+.logo{
+  width: 120px;
+  height: 48px;
+  
+}
+
+.btn-db300-preenchido{
+  display: inline-flex;
+  border-radius: 24px;
+  background: var(--DarkBlue300);
+  color: var(--White);
+  border: none;
+}
+
+.btn-db300-preenchido:hover{
+  cursor: pointer;
+  background: var(--LihtBlue300);
+  color: var(--DarkBlue300);
+  border: 1px solid var(--DarkBlue300);
+}
+
+.btn-db400-preenchido{
+  display: inline-flex;
+  border-radius: 24px;
+  background: var(--DarkBlue400);
+  color: var(--White);
+  border: none;
+}
+
+.btn-db400-preenchido:hover{
+  cursor: pointer;
+  background: var(--LihtBlue400);
+  color: var(--DarkBlue400);
+  border: 1px solid var(--DarkBlue300);
+}
+
+.btn-db300-vazio{
+  display: inline-flex;
+  border-radius: 24px;
+  border: 1px solid var(--DarkBlue300);
+  color: var(--DarkBlue300);
+}
+
+.btn-db300-vazio:hover{
+  cursor: pointer;
+  background: var(--DarkBlue300);
+  color: var(--LightBlue300);
+}
+
+.btn-db400-vazio{
+  display: inline-flex;
+  border-radius: 24px;
+  border: 1px solid var(--DarkBlue400);
+  color: var(--White);
+}
+
+.btn-db400-vazio:hover{
+  cursor: pointer;
+  background: var(--DarkBlue400);
+  color: var(--White);
+}
