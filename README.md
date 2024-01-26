@@ -3,6 +3,7 @@
 [Link Trello](https://trello.com/c/u4QLxBoP)
 
 ou pelo QR CODE abaixo:
+<br/>
 <img src="./assets/img/trello-card-qr-code.png" alt="QR CODE do Desafio!">
 
 @AluraLATAM @Oracle
