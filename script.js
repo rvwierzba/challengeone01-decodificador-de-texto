@@ -18,7 +18,6 @@ const encryptMap = {
   "ober": "o",
   "ufat": "u"
 };
-
 const descryptMap = {
   "a": "ai",
   "e": "enter",
